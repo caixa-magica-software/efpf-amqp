@@ -1,0 +1,25 @@
+{
+  "name": "efpf-amqp",
+  "version": "1.0.0",
+  "description": "EFPF-AMQP",
+  "main": "index.js",
+  "scripts": {
+    "simple": "node ./samples/simple.js",
+    "ssl": "node ./samples/ssl.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caixa-magica-software/efpf-amqp.git"
+  },
+  "author": "mstavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caixa-magica-software/efpf-amqp/issues"
+  },
+  "homepage": "https://github.com/caixa-magica-software/efpf-amqp#readme",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.6"
+  }
+}
