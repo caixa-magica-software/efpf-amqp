@@ -20,6 +20,7 @@
   "homepage": "https://github.com/caixa-magica-software/efpf-amqp#readme",
   "dependencies": {
     "mosca": "^2.8.3",
-    "mqtt": "^4.2.6"
+    "mqtt": "^4.2.6",
+    "path": "^0.12.7"
   }
 }
